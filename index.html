@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Semen Likhtarev — MVP за 7 дней</title>
+  <meta name="description" content="Превращаю идеи в работающие MVP за 7 дней. Быстрее студии, дешевле фриланс-бирж. Next.js, Telegram-боты, SaaS — чистый инженерный код." />
+  <meta name="theme-color" content="#07070c" />
+  <meta name="author" content="Semen Likhtarev" />
+  <link rel="canonical" href="https://semenliikhtarev.github.io/site/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Semen Likhtarev" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:url" content="https://semenliikhtarev.github.io/site/" />
+  <meta property="og:title" content="Semen Likhtarev — MVP за 7 дней" />
+  <meta property="og:description" content="Превращаю идеи в работающие MVP за 7 дней. Быстрее студии, дешевле фриланс-бирж." />
+  <meta property="og:image" content="https://semenliikhtarev.github.io/site/assets/preview.jpg" />
+  <meta property="og:image:width" content="1140" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:image:alt" content="Сайт-визитка Semen Likhtarev — MVP за 7 дней" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Semen Likhtarev — MVP за 7 дней" />
+  <meta name="twitter:description" content="Превращаю идеи в работающие MVP за 7 дней. Быстрее студии, дешевле фриланс-бирж." />
+  <meta name="twitter:image" content="https://semenliikhtarev.github.io/site/assets/preview.jpg" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c5cff'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' fill='%2307070c' text-anchor='middle'%3ESL%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    document.documentElement.classList.add("js");
+    window.__revealReady = false;
+    setTimeout(function () {
+      if (window.__revealReady) return;
+      document.querySelectorAll(".reveal").forEach(function (el) {
+        el.classList.add("is-visible");
+      });
+    }, 1600);
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <div class="bg-decor" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Semen Likhtarev — на главную">
+        <span class="logo-mark">SL</span>
+        <span class="logo-text">Semen<span>Likhtarev</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#pain" class="nav-link">Боли</a>
+        <a href="#cases" class="nav-link">Кейсы</a>
+        <a href="#pricing" class="nav-link">Тарифы</a>
+        <a href="#contact" class="nav-link">Контакты</a>
+        <a href="#contact" class="btn btn-primary nav-cta">Обсудить проект</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary btn-sm header-cta">Обсудить проект</a>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow reveal"><span class="pulse-dot"></span> Свободен для новых проектов</span>
+
+          <h1 class="hero-title reveal" style="--d:.08s">
+            Превращаю идеи в <span class="grad-text">работающие MVP</span> за 7 дней
+          </h1>
+
+          <p class="hero-sub reveal" style="--d:.16s">
+            Быстрее студии, дешевле фриланс-бирж. Чистый инженерный код на Next.js — без «почти готово» и без сюрпризов в смете.
+          </p>
+
+          <div class="hero-actions reveal" style="--d:.24s">
+            <a href="#contact" class="btn btn-primary">
+              Обсудить проект
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#cases" class="btn btn-ghost">Смотреть кейсы</a>
+          </div>
+
+          <ul class="hero-stats reveal" style="--d:.32s">
+            <li><strong>7</strong><span>дней до MVP</span></li>
+            <li><strong>100%</strong><span>код открыт на GitHub</span></li>
+            <li><strong>24/7</strong><span>на связи в процессе</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" style="--d:.2s">
+          <div class="avatar-card" id="avatarCard">
+            <div class="avatar-frame">
+              <img src="assets/avatar.jpg" alt="Портрет Semen Likhtarev" width="800" height="1000" fetchpriority="high" decoding="async" />
+            </div>
+            <div class="avatar-meta">
+              <div>
+                <p class="avatar-name">Semen Likhtarev</p>
+                <p class="avatar-role">Вайб-кодер · Full-stack</p>
+              </div>
+              <span class="status-pill"><span class="pulse-dot"></span> online</span>
+            </div>
+            <span class="float-chip chip-1">Next.js</span>
+            <span class="float-chip chip-2">Telegram Bot</span>
+            <span class="float-chip chip-3">SaaS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Tailwind CSS</span><span>Telegram API</span><span>Docker</span>
+          <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Tailwind CSS</span><span>Telegram API</span><span>Docker</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAIN & SOLUTIONS -->
+    <section class="section" id="pain">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Боли и решения</span>
+          <h2>Знакомые ситуации?</h2>
+          <p>Три типичные боли — и три конкретных ответа. Без воды и «мы подумаем над сроками».</p>
+        </div>
+
+        <div class="pain-grid">
+          <article class="pain-card reveal" style="--d:.05s">
+            <div class="pain-icon">⏳</div>
+            <p class="pain-q">Студия делает месяц?</p>
+            <p class="pain-a">Я запущу за неделю.</p>
+            <p class="pain-desc">Короткий бриф, прототип в первые дни и рабочий продукт к концу недели — без бесконечных согласований.</p>
+          </article>
+
+          <article class="pain-card reveal" style="--d:.15s">
+            <div class="pain-icon">🤖</div>
+            <p class="pain-q">Не знаете, как автоматизировать запись?</p>
+            <p class="pain-a">Настрою Telegram-бота за день.</p>
+            <p class="pain-desc">Запись, напоминания, оплата и уведомления — клиенты пишут в привычный мессенджер, вы не теряете заявки.</p>
+          </article>
+
+          <article class="pain-card reveal" style="--d:.25s">
+            <div class="pain-icon">🛡️</div>
+            <p class="pain-q">Боитесь за код?</p>
+            <p class="pain-a">Я не просто генерирую ИИ.</p>
+            <p class="pain-desc">Пишу чистый инженерный код на Next.js: понятная структура, типизация, репозиторий и документация — всё у вас.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASES -->
+    <section class="section" id="cases">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Кейсы</span>
+          <h2>Что уже сделано</h2>
+          <p>Три проекта — от SaaS до лендинга. Детали, демо и цифры покажу на созвоне.</p>
+        </div>
+
+        <div class="cases-grid">
+          <article class="case-card reveal" style="--d:.05s">
+            <div class="case-cover cover-1">
+              <span class="case-glow"></span>
+              <span class="case-emoji">🌱</span>
+              <span class="case-type">SaaS</span>
+            </div>
+            <div class="case-body">
+              <h3>Трекер привычек</h3>
+              <p>SaaS-приложение с сериями, статистикой и напоминаниями. Регистрация, подписки и личный кабинет.</p>
+              <ul class="tags">
+                <li>Next.js</li><li>PostgreSQL</li><li>SaaS</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-card reveal" style="--d:.15s">
+            <div class="case-cover cover-2">
+              <span class="case-glow"></span>
+              <span class="case-emoji">🎮</span>
+              <span class="case-type">Web App</span>
+            </div>
+            <div class="case-body">
+              <h3>Игровой трекер</h3>
+              <p>Библиотека игр, прогресс прохождения и коллекции. Поиск, фильтры и статистика по жанрам.</p>
+              <ul class="tags">
+                <li>React</li><li>REST API</li><li>UI/UX</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-card reveal" style="--d:.25s">
+            <div class="case-cover cover-3">
+              <span class="case-glow"></span>
+              <span class="case-emoji">💅</span>
+              <span class="case-type">Landing</span>
+            </div>
+            <div class="case-body">
+              <h3>Лендинг для бьюти-мастера</h3>
+              <p>Продающая страница с портфолио, отзывами и онлайн-записью через Telegram-бота.</p>
+              <ul class="tags">
+                <li>Landing</li><li>Telegram Bot</li><li>Анимации</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="cases-foot reveal">
+          <a class="link-arrow" href="https://github.com/SemenLiikhtarev" target="_blank" rel="noopener noreferrer">
+            Больше проектов на GitHub
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Тарифы</span>
+          <h2>Два пакета — без мелкого шрифта</h2>
+          <p>Точную стоимость называю после 15-минутного брифа. Фиксируем в смете — и не меняем по ходу.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal" style="--d:.05s">
+            <div class="price-head">
+              <h3>База</h3>
+              <p class="price-tagline">MVP под ключ</p>
+              <p class="price-value">по брифу</p>
+            </div>
+            <ul class="price-list">
+              <li>Лендинг или MVP-приложение</li>
+              <li>Дизайн и адаптивная вёрстка</li>
+              <li>Деплой, домен, аналитика</li>
+              <li>Исходный код в вашем GitHub</li>
+              <li>Срок запуска — 7 дней</li>
+            </ul>
+            <a href="mailto:Lsem2020@gmail.com?subject=Проект%3A%20пакет%20«База»" class="btn btn-ghost btn-block">Выбрать «Базу»</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal" style="--d:.15s">
+            <span class="price-badge">Выбирают чаще</span>
+            <div class="price-head">
+              <h3>База+</h3>
+              <p class="price-tagline">MVP + поддержка</p>
+              <p class="price-value">по брифу</p>
+            </div>
+            <ul class="price-list">
+              <li>Всё из пакета «База»</li>
+              <li>30 дней поддержки после запуска</li>
+              <li>Правки и доработки по фидбеку</li>
+              <li>Приоритетная связь в Telegram</li>
+              <li>Мониторинг и мелкие фиксы</li>
+            </ul>
+            <a href="mailto:Lsem2020@gmail.com?subject=Проект%3A%20пакет%20«База%2B»" class="btn btn-primary btn-block">Выбрать «База+»</a>
+          </article>
+        </div>
+
+        <p class="pricing-note reveal">Оплата поэтапно: старт — предоплата, остаток — после демо. Код передаю только вам.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+            <span class="section-tag">Контакты</span>
+            <h2>Есть идея? Обсудим вайб.</h2>
+            <p>Расскажите задачу в двух предложениях — отвечу в течение дня и предложу план на первую неделю.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:Lsem2020@gmail.com" class="btn btn-primary btn-lg">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Lsem2020@gmail.com
+            </a>
+
+            <div class="contact-links">
+              <a href="https://github.com/SemenLiikhtarev" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+                GitHub
+              </a>
+              <a href="https://vk.com/id36313731" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.8 18.4c-6.2 0-9.7-4.3-9.8-11.4h3.1c.1 5.2 2.4 7.4 4.2 7.9V7h2.9v4.5c1.8-.2 3.7-2.2 4.3-4.5h2.9a8.7 8.7 0 0 1-3.9 5.6 8.9 8.9 0 0 1 4.5 5.8h-3.2c-.6-2-2.2-3.6-4.6-3.8v3.8h-.4Z"/></svg>
+                VK
+              </a>
+            </div>
+          </div>
+
+          <p class="contact-note">
+            Код открыт на <a href="https://github.com/SemenLiikhtarev" target="_blank" rel="noopener noreferrer">github.com/SemenLiikhtarev</a> — прозрачность как гарантия качества.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo logo--footer" href="#top">
+        <span class="logo-mark">SL</span>
+        <span class="logo-text">Semen<span>Likhtarev</span></span>
+      </a>
+
+      <p class="footer-quote">«Код — это не только логика. Это настроение.»</p>
+
+      <div class="footer-links">
+        <a href="mailto:Lsem2020@gmail.com">Lsem2020@gmail.com</a>
+        <a href="https://github.com/SemenLiikhtarev" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://vk.com/id36313731" target="_blank" rel="noopener noreferrer">VK</a>
+      </div>
+
+      <p class="footer-copy">© <span id="year">2026</span> Semen Likhtarev · Сделано с вайбом ⚡</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
